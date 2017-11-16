@@ -17,7 +17,6 @@ mkdir doc data results src bin
 
 echo "Folders created."
 
-touch LICENSE.md
 touch CONTRIBUTING.md
 
 cat > README.md << EOF
@@ -31,6 +30,15 @@ Project description goes here.
 
 Installation instructions go here. 
 EOF
+
+cat > LICENSE.md << EOF
+As per github's docs:
+> For your repository to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software.
+
+More information on licensing can be found [here](https://help.github.com/articles/licensing-a-repository/). Check out [hubot's](https://github.com/hubotio/hubot/blob/master/LICENSE.md) license as an example.
+
+EOF
+
 echo "License, contributing, readme markdown files created."
 
 echo "Project successfully created."
