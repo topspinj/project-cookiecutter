@@ -4,10 +4,9 @@
 set -o noclobber
 
 # set up folder structure
-echo "Setting up your new project $1"
 cd ..
-mkdir $1
+mkdir project
 
-cd $1
+cd project
 mkdir doc data results src bin
 
