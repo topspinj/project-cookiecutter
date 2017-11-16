@@ -1,4 +1,4 @@
-# Cookie-cutter Project Template Generator
+# Cookie-Cutter Project Template Generator
 
 This is a cookie-cutter template generator for data analysis projects. Running the bash script in this repository will generate a new directory and set up the basic sub-directories that are common in data analysis projects.
 
