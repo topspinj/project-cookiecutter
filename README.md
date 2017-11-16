@@ -27,3 +27,7 @@ Running the bash script in this repository will generate a new directory (outsid
     |- bin/           # any compiled binaries or scripts
 
 License, contributing, readme markdown files are also created in the root directory.
+
+## Author
+
+This repository was created by Jill Cates on November 16, 2017. 
