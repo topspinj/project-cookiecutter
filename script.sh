@@ -18,6 +18,7 @@ mkdir doc data results src bin
 echo "Folders created."
 
 touch CONTRIBUTING.md
+touch .gitignore
 
 cat > README.md << EOF
 ## $1

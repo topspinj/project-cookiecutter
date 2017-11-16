@@ -26,7 +26,7 @@ Running the bash script in this repository will generate a new directory (outsid
     |
     |- bin/           # any compiled binaries or scripts
 
-License, contributing, readme markdown files are also created in the root directory.
+License, contributing, readme markdown files, as well as an empty .gitignore, are created in the root directory.
 
 ## Author
 
