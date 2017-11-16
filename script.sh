@@ -18,26 +18,10 @@ mkdir doc data results src bin
 echo "Folders created."
 
 touch LICENSE.md
-touch CITATION.md
-touch CONDUCT.md
 touch CONTRIBUTING.md
-
-echo "License, citation, conduct, contributing markdown files created."
 
 cat > README.md << EOF
 ## $1
-
-## Data Structure
-
-    |- doc/           # documentation
-    |
-    |- data/          # directory for storing data sets
-    |
-    |- results/       # output for tracking computational
-    |
-    |- src/           # source code
-    |
-    |- bin/           # any compiled binaries or scripts
 
 ## Project description
 
@@ -47,5 +31,6 @@ Project description goes here.
 
 Installation instructions go here. 
 EOF
+echo "License, contributing, readme markdown files created."
 
 echo "Project successfully created."
