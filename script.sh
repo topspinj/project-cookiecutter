@@ -24,8 +24,6 @@ touch CONTRIBUTING.md
 
 echo "License, citation, conduct, contributing markdown files created."
 
-touch Makefile
-
 cat > README.md << EOF
 ## $1
 
