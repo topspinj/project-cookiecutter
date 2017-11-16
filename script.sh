@@ -22,12 +22,12 @@ touch CITATION.md
 touch CONDUCT.md
 touch CONTRIBUTING.md
 
-echo "Readme, license, citation, conduct, contributing markdown files created"
+echo "License, citation, conduct, contributing markdown files created."
 
 touch Makefile
 
 cat > README.md << EOF
-## Project Title
+## $1
 
 ## Data Structure
 
@@ -40,6 +40,14 @@ cat > README.md << EOF
     |- src/           # source code
     |
     |- bin/           # any compiled binaries or scripts
+
+## Project description
+
+Project description goes here.
+
+## Installation Instructions 
+
+Installation instructions go here. 
 EOF
 
 echo "Project successfully created."
